@@ -3,6 +3,7 @@
 <body>
     {% if predict %}
     <img src="{{filepath}}" border="1">
+    <p>{'Label': [rank_01, rank_02, rank_04, rank_06, rank_08, rank_12}</p>
     <p>{{predict}}</p>
     {% endif %}
     <br>
